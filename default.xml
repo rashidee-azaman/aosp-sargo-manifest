@@ -454,7 +454,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <!-- <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" /> -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="quadlab" revision="refs/branches/dev-10.0.0_r41" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="quadlab" revision="refs/heads/dev-10.0.0_r41" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
