@@ -6,11 +6,10 @@
            review="https://android-review.googlesource.com/" />
 
 
-  <remote  name="quadlab" fetch="git@github.com:quadlabsb/" />
+  <remote  name="quadlab" fetch="https://github.com/quadlabsb//" />
 
   <default revision="refs/tags/android-10.0.0_r41" 
            remote="aosp"
-           sync-c="true"
            sync-j="8" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -455,7 +454,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <!-- <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" /> -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="quadlab" revision="android-10.0.0_r41" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="quadlab" revision="refs/branches/dev-10.0.0_r41" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
